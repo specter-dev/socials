@@ -29,7 +29,7 @@ LINKEDIN_URL_REGEXS = [
 ]
 
 TWITTER_URL_REGEXS = [
-    r'^http(s)?://(.*\.)?twitter\.com\/[A-Za-z0-9_]+/',
+    r'^http(s)?://(.*\.)?twitter\.com\/[A-Za-z0-9_]+/?$',
 ]
 
 INSTAGRAM_URL_REGEXS = [
